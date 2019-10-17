@@ -1,0 +1,187 @@
+.category-con {
+    position: relative;
+    height: 500px;
+    width: 100%;
+
+    .category-inner-con {
+        width: 1230px;
+        height: 500px;
+        padding-right: 30px;
+        position: relative;
+        height: 0;
+        z-index: 100;
+        margin: 0 auto;
+
+        .logo-con {
+            height: 130px;
+            width: 290px;
+            position: absolute;
+            z-index: 100000;
+            margin-top: -167px;
+            margin-left: -20px;
+
+            img {
+                width: 240px;
+                height: 130px;
+                position: absolute;
+                bottom: 0;
+                vertical-align: middle;
+
+            }
+        }
+    }
+}
+
+.nav-con {
+    width: 200px;
+}
+
+.normal-nav {
+    background-color: rgba(0, 0, 0, .55);
+    width: 200px;
+    height: 500px;
+    position: relative;
+    z-index: 11;
+}
+
+.normal-nav li{
+    position: relative;
+    height: 31.2px;
+    width: 200px;
+    line-height: 31.2px;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    font-style: normal;
+
+    i {
+        display: inline-block;
+        margin-left: 14px;
+        margin-right: 4px;
+        height: 31px;
+        line-height: 31px;
+        font-size: 16px;
+        // opacity: .5;
+    }
+}
+.normal-nav a{
+    height: 31px;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+}
+.normal-nav li:hover{
+    background-color: #fff;
+}
+.nav-item1:hover{
+    color: red;
+}
+.nav-item1:hover a{
+    color: red;
+    font-weight: bold;
+}
+.nav-item2:hover{
+    color: blue;
+}
+.nav-item2:hover a{
+    color: blue;
+    font-weight: bold;
+}
+.nav-item3:hover{
+    color: purple;
+}
+.nav-item3:hover a{
+    color: purple;
+    font-weight: bold;
+}
+.nav-item4:hover{
+    color: green;
+}
+.nav-item4:hover a{
+    color: green;
+    font-weight: bold;
+}
+.nav-item5:hover{
+    color: red;
+}
+.nav-item5:hover a{
+    color: red;
+    font-weight: bold;
+}
+.nav-item6:hover{
+    color: blue;
+}
+.nav-item6:hover a{
+    color: blue;
+    font-weight: bold;
+}
+.nav-item7:hover{
+    color: purple;
+}
+.nav-item7:hover a{
+    color: purple;
+    font-weight: bold;
+}
+.nav-item8:hover{
+    color: green;
+}
+.nav-item8:hover a{
+    color: green;
+    font-weight: bold;
+}
+.nav-item9:hover{
+    color: red;
+}
+.nav-item9:hover a{
+    color: red;
+    font-weight: bold;
+}
+.nav-item10:hover{
+    color: blue;
+}
+.nav-item10:hover a{
+    color: blue;
+    font-weight: bold;
+}
+.nav-item11:hover{
+    color: purple;
+}
+.nav-item11:hover a{
+    color: purple;
+    font-weight: bold;
+}
+.nav-item12:hover{
+    color: green;
+}
+.nav-item12:hover a{
+    color: green;
+    font-weight: bold;
+}
+.nav-item13:hover{
+    color: red;
+}
+.nav-item13:hover a{
+    color: red;
+    font-weight: bold;
+}
+.nav-item14:hover{
+    color: blue;
+}
+.nav-item14:hover a{
+    color: blue;
+    font-weight: bold;
+}
+.nav-item15:hover{
+    color: purple;
+}
+.nav-item15:hover a{
+    color: purple;
+    font-weight: bold;
+}
+.nav-item16:hover{
+    color: green;
+}
+.nav-item16:hover a{
+    color: green;
+    font-weight: bold;
+}

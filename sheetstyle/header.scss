@@ -1,0 +1,78 @@
+#header{
+    margin-bottom: 0;
+    min-width: 990px;
+    background: #fff;
+    height: 130px;
+    margin-top: 0!important;
+    width: auto!important;
+    position: relative;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;;
+    .headerLayout{
+        padding-top: 0!important;
+        width: 1230px;
+        height: 106px;
+        background-color: #fff;;
+        margin: 0 auto;
+        .header-banner{
+            padding: 2px 0 0 102.5px;
+            float: right;
+            height: 70px;
+            width: 200px;
+        }
+        #mallSearch{
+            width: 625px;
+            height: 68px;
+            padding-top: 38px;
+            float: right;
+            overflow: hidden;
+            .mallSearch-input{
+                height: 36px;
+                background: #fff;
+                position: relative;
+                border-width: 2px 0 2px 2px;
+                border: solid #FF0036;
+                input{
+                    width: 483px;
+                    height: 26px;
+                    margin-top: 4px;
+                    border: none;
+                    font: 16px/22px arial;
+                }
+                button{
+                    border: none;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 132px;
+                    height: 36px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #fff;
+                    background-color: #FF0036;
+                    overflow: hidden;
+                    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+                }
+            }
+            .hot-query{
+                height: 24px;
+                font-size: 14px;
+                padding: 4px 0 0;
+                margin-left: -13px;
+                overflow: hidden;
+                width: 100%;
+                li{
+                    display: inline-block;
+                    border-left: 1px solid #ccc;
+                    line-height: 1.1;
+                    padding: 0 12px; 
+                }
+            }
+        }
+    }
+}
+.hot-query-highlight>a{
+    color: #FF0036;
+}

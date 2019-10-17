@@ -1,0 +1,111 @@
+.content-con{
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.pannel-con{
+    height: 500px;
+    width: 852px;
+    left: 200px;
+    position: absolute;
+    background-color: #fff;
+    display: none
+}
+.hot-word-con{
+    float: left;
+    width: 583px;
+    height: 462px;
+    margin: 19px 30px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.line-title{
+    width: 60px;
+    color: #333;
+    margin-right: 30px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    height: 22px;
+    float: left;
+}
+.title-text{
+    display: inline-block;
+    width: 60px;
+    height: 44px;
+    overflow: hidden;
+    text-align: justify;
+    text-align-last: justify;
+}
+.line-title>i{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -15px;
+        font-size: 14px;
+}
+.line-con{
+    width: 493px;
+    float: left;
+}
+.hot-word{
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #666;
+    float: left;
+    margin-left: 13px;
+}
+.blue{
+    color: blue!important;
+}
+.seprate {
+    margin-bottom: 10.5px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgba(0,0,0,.1);
+    height: 10.5px;
+    clear: both;
+}
+.sub-logo-con{
+    float: left;
+    background-color: #FAFAFA;
+    width: 189px;
+    padding: 10px;
+    height: 480px;
+}
+.logo{
+    float: left;
+    width: 73px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    height: 37px;
+    padding: 5px 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.logo>img{
+        width: 73px;
+        display: block;
+        margin: 0 auto;
+}
+.activity {
+    display: block;
+    border-top: 10px solid #fafafa;
+    background-color: #fff;
+    clear: both;
+    img{
+        float: left;
+        width: 189px;
+        height: 87px;
+    }
+}
+.hot-word:hover{
+    color: blue;
+}
+.logo img:hover{
+    opacity: .8;
+}

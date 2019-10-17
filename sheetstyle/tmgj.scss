@@ -1,0 +1,66 @@
+.tmgj{
+    margin: 20px auto 0;
+    width: 1230px;
+    height: 665px;
+    background-color:#f5f5f5;
+    position: relative;
+}
+.big-banner-con-1-1{
+    float: left;
+    position: relative;
+    width: 235px;
+    height: 618px
+}
+.full-grid{
+    width: 235px;
+    height: 301px;
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+    background-color: #fff;
+    img{
+        width: 235px;
+        height: 301px;
+        vertical-align: middle;
+    }
+}
+.one-grid{
+    width: 235px;
+    height: 301px;
+    margin-left: 13px;
+    img{
+    width: 170px;
+    height: 170px;
+    margin: 90px 33px 42px 32px;
+    z-index: 1;
+    }
+}
+.title{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 220px;
+    font-size: 18px;
+    z-index: 10;
+    line-height: 24px;
+    height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #000
+}
+.sub-title{
+    position: absolute;
+    top: 49px;
+    left: 25px;
+    width: 220px;
+    font-size: 14px;
+    z-index: 10;
+    line-height: 18px;
+    height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #7A45E5;
+}

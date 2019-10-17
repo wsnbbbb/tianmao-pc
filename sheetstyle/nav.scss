@@ -1,0 +1,383 @@
+#mallPage{
+    width: auto;
+    min-width: 990px;
+    background-color:#f5f5f5;
+}
+#site-nav{
+    width: auto;
+    min-width: 990px;
+    height: 32px;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    position: relative!important;
+    background: #f2f2f2;
+    z-index: 99999;
+    border-bottom: 1px solid #e5e5e5;
+}
+#sn-bd{
+    position: relative;
+    left: -15px;
+    width: 1230px;
+    height: 32px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.sn-container{
+    height: 32px;
+    width: 100%;
+    position: relative;
+    color: #999;
+}
+#login-info{
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    position: relative;
+}
+#login-info>em{
+    font-size: 12px;
+}
+.sn-login{
+    padding-left: 20px;
+    color: #999;
+    font-size: 12px;
+}
+.sn-register{
+    color: #999;
+    font-size: 12px;
+    padding: 0 10px;
+}
+#login-info a:hover{
+    color: red;
+}
+.sn-quick-menu{
+    height: 32px;
+    width: 529px;
+    line-height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.mytaobao{
+    z-index: 93110;
+}
+#site-nav .sn-quick-menu li{
+    float: left;
+    position: relative;
+}
+.sn-menu{
+    position: relative;
+}
+.menu-hd{
+    padding-right: 14px;
+    display: block;
+    cursor: pointer;
+    z-index: 100001;
+    border: solid #f2f2f2;
+    border-width: 1px;
+    border-bottom: 0;
+    position: relative;
+    padding: 0 10px;
+    color: #999;
+    font-size: 12px;
+}
+.menu-hd span{
+    display: inline-block;
+    top: 15px;
+    right: 2px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 3px solid #bbb;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+    transition: all .2s ease;
+}
+.menu-bd{
+    width: 74px;
+    line-height: 1.4;
+    padding: 8px 10px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 33px;
+    background: #fff;
+    z-index: 93110;
+    border: solid #eee;
+    border-width: 0 1px 1px;
+}
+.menu-bd a{
+    line-height: 20px;
+    color: #666;
+}
+.sn-menu:hover .menu-bd{
+    display: block;
+}
+.sn-menu:hover .menu-hd{
+    color: red;
+    text-decoration: underline;
+    background-color: white;
+}
+.menu-bd a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.sn-menu:hover .menu-hd>span{
+    transform: rotate(180deg);
+}
+.sn-cart{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.sn-cart>i{
+    position: relative;
+    top: 1px;
+    color: #FF0036;
+    font-size: 14px;
+    font-style: normal;
+    margin: 0 auto;
+}
+.sn-cart-link{
+    cursor: pointer;
+    z-index: 100001;
+    border: solid #f2f2f2;
+    border-width: 0;
+    border-bottom: 0;
+    position: relative;
+    color: #999;
+    font-size: 12px;
+    top: 1px;
+}
+.sn-cart-link:hover{
+   color: red;
+}
+.sn-separator{
+    top: 9px;
+    display: inline-block;
+    width: 0;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    position: relative;
+    left: 0;
+    font-size: 0;
+    border-left: 1px solid #ccc;
+    margin: 0 2px 0 5px;
+}
+.sn-qrcode{
+    position: absolute;
+    width: 175px;
+    height: 227px;
+    background: #fff;
+    left: -48px;
+    top: 26px;
+    box-shadow: 0 0 5px #aaa;
+    display: none;
+}
+.sn-qrcode-content{
+    width: 175px;
+    height: 175px;
+    margin: 5px 0 0px;
+    background: url(../img/erweima.png) 0 0 no-repeat;
+}
+.app{
+    width: 175px;
+    height: 35px;
+    background: url(../img/app.jpg) center bottom no-repeat;
+    overflow: hidden;
+    line-height: 35px;
+}
+.sjx{
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -2px;
+    border-width: 5px;
+    border-style: dashed dashed solid;
+    border-color: transparent transparent #fff;
+}
+.sn-cart:hover .sn-qrcode{
+    display: block;
+}
+.sn-home{
+    padding: 0 10px;
+}
+.sn-home:hover .taobaowang{
+    color: red;
+}
+.shangjia{
+    width: 122px;
+    overflow: hidden;
+    right: 0;
+    left: auto;
+    line-height: 1.4;
+    padding: 8px 10px;
+    top: 33px;
+    display: none;
+}
+.shangjia ul{
+    margin-top: -5px;
+    overflow: hidden;
+    width: 122px;
+}
+.shangjia li{
+    float: none;
+    padding: 5px 0;
+    height: auto;
+    display: block;
+    line-height: 1.4;
+    border-bottom: 1px dotted #827777;
+    margin-right: -20px;
+    position: relative;
+}
+.shangjia h3{
+    color: #666;
+    font-weight: 700;
+    font-size: 100%;
+}
+.shangjia li a{
+    display: inline-block;
+    width: 48px;
+    margin-right: 20px;
+    line-height: 22px;
+}
+.sn-menu:hover .shangjia{
+    display: block;
+}
+.wzdhh:hover{
+ background: #fff;
+}
+.wzdh{
+    display: inline-block;
+    top: 15px;
+    right: 2px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 3px solid #bbb;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+    transition: all .2s ease;
+}
+.sn-cart:hover .wzdh{
+    transform: rotate(180deg);
+}
+.sn-cart:hover .wzdh1{
+    color: #999;
+}
+.wzdhbox{
+    width: 1198px;
+    right: 0;
+    left: auto;
+    padding: 25px 0;
+    line-height: 1.4;
+    top: 33px;
+    position: absolute;
+    background: #fff;
+    z-index: 93110;
+    border: 1px solid #eee;
+    display: none;
+}
+.site-cont{
+    width: 455px;
+    height: 110px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.site-hot{
+    width: 455px;
+    float: left;
+}
+.site-hot>h2{
+    color: #f56a00;
+}
+.site-cont h2{
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+    font-weight: 100;
+    text-align: left;
+    margin-left: 23px;
+}
+.site-cont h2 span{
+    padding-left: 6px;
+}
+.site-cont ul{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.site-list li{
+    width: 95px;
+    float: left;
+    padding: 6px 0;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.site-list li a{
+    position: relative;
+    color: #666;
+}
+.sn-sitemap-icon{
+    position: absolute;
+    width: 9px;
+    height: 11px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    top: -7px;
+    right: -9px;
+    background:url(../img/tubiao.png);
+    background-position: -37px -11px;
+}
+.sn-sitemap-icon-hot{
+    position: absolute;
+    width: 9px;
+    height: 11px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    top: -7px;
+    right: -9px;
+    background:url(../img/tubiao.png);
+    background-position: -37px 0;
+}
+.site-market{
+    width: 455px;
+    padding-right: 30px;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    float: left;
+}
+.site-market h2{
+    color: #2263d4;
+}
+.site-help h2{
+    color: #666;
+}
+.site-help{
+    width: 196px;
+    margin-left: 0;
+}
+.wzdhh:hover .wzdhbox{
+display: block;
+}
+.site-hot a:hover{
+    color: #f56a00;
+    text-decoration: underline;
+} 
+.site-market a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.site-help a:hover{
+    text-decoration: underline;
+}
